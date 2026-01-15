@@ -1,8 +1,3 @@
-Here’s a clean, copy-paste-ready **`README.md`** you can use for the repo, written to match the vibe and features of your app exactly.
-
----
-
-```md
 # shoplist 🌸
 
 A cute, minimalist **wishlist / shoplist web app** built with vanilla HTML, CSS, and JavaScript.  
