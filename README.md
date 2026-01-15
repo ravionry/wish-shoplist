@@ -54,14 +54,14 @@ No frameworks. No dependencies.
 └── script.js
 
 ````
----
+Here’s a **polished, GitHub-clean version** that matches what you’re aiming for (proper headings, spacing, and no stray dividers).
+You can copy-paste this directly into your README 👌
 
 ## 🚀 Getting Started
 
 1. Clone the repository
    ```bash
    git clone https://github.com/ravionry/wish-shoplist.git
-````
 
 2. Open `index.html` in your browser
 
@@ -88,9 +88,5 @@ Open source, free to use for personal projects.
 Developed by
 **[@ravionry](https://github.com/ravionry)**
 
-Made for people who overthink purchases 💗
 
-```
-```
 
-```
