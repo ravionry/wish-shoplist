@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>wish by xyr</title>
+
+  <!-- mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ff7bb0">
+
+</head>
+<body>
+
+  <h1>shoplist 🌸</h1>
+
+  <!-- FORM -->
+  <form id="wishlist-form">
+    <input
+      type="text"
+      id="name"
+      placeholder="ITEM"
+      required
+    />
+
+    <input
+      type="number"
+      id="price"
+      placeholder="PRICE ₱"
+    />
+
+    <input
+      type="url"
+      id="link"
+      placeholder="LINK (optional)"
+    />
+
+    <input
+      type="text"
+      id="tags"
+      placeholder="TAGS (comma separated)"
+    />
+
+    <select id="category" required>
+      <option value="" disabled selected hidden>
+        CATEGORY
+      </option>
+      <option value="furniture">🛋️ furniture</option>
+      <option value="school">🎒 school</option>
+      <option value="clothes">👗 clothes</option>
+      <option value="tech">💻 tech</option>
+      <option value="gift">🎁 gift</option>
+      <option value="misc">🎲 misc</option>
+    </select>
+
+    <label>
+      PRIORITY:
+      <div id="priority-hearts" class="priority-hearts selectable">
+        <span data-value="1">💗</span>
+        <span data-value="2">💗</span>
+        <span data-value="3">💗</span>
+        <span data-value="4">💗</span>
+        <span data-value="5">💗</span>
+      </div>
+    </label>
+
+    <div class="form-actions">
+      <button type="submit">add 💖</button>
+    </div>
+  </form>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button type="button" onclick="sortBy('priority')">💗 priority</button>
+    <button type="button" onclick="sortBy('price')">💸 price</button>
+    <button type="button" onclick="sortBy('date')">🕒 recent</button>
+
+    <input
+      type="number"
+      id="budget"
+      placeholder="max ₱"
+    />
+
+    <button type="button" onclick="applyBudget()">apply 💸</button>
+  </div>
+
+  <!-- ENTRIES HEADER -->
+  <div class="entries-header">
+    <h2 class="entries-title">Entries</h2>
+
+    <button
+      type="button"
+      id="archive-toggle"
+      class="archive-toggle"
+      onclick="toggleArchived()"
+    >
+      hide archived 📦
+    </button>
+  </div>
+
+  <!-- LIST -->
+  <div id="wishlist"></div>
+
+  <!-- THEME TOGGLE -->
+  <button
+    id="theme-toggle"
+    class="theme-toggle"
+    type="button"
+    onclick="toggleTheme()"
+  >
+    Night mode
+  </button>
+
+  <script src="script.js"></script>
+
+  <div class="footer-credit">
+    mini-app developed by
+    <a href="https://github.com/ravionry" target="_blank" rel="noopener noreferrer">
+        @ravionry
+    </a>
+  </div>
+</body>
+</html>
