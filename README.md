@@ -1,49 +1,44 @@
 # shoplist 🌸
 
-A cute, minimalist **wishlist / shoplist web app** built with vanilla HTML, CSS, and JavaScript.  
-Designed for tracking items you want to buy, comparing priorities, prices, and making quick “buy or skip” decisions — all stored locally in your browser.
+A cute, minimalist wishlist / shoplist web app built with vanilla HTML, CSS, and JavaScript.  
+Designed for tracking items you want to buy, comparing priorities and prices, and making quick “buy or skip” decisions — all stored locally in your browser.
 
 ---
 
 ## ✨ Features
 
-- **Add wishlist items** with:
-  - Name
+- Add wishlist items with:
+  - Item name
   - Price (₱)
   - Optional product link
   - Tags
   - Category
   - Priority (1–5 hearts 💗)
 
-- **Smart decision helper**
-  - Automatically suggests: *buy*, *wait*, *think about it*, or *skip* based on priority and price
+- Smart decision helper  
+  Automatically suggests **buy**, **wait**, **think about it**, or **skip** based on priority and price
 
-- **Sorting controls**
-  - Sort by priority
-  - Sort by price
-  - Sort by most recent
+- Sorting controls  
+  Sort by priority, price, or most recent
 
-- **Budget filter**
-  - Show only items under a specified maximum price
+- Budget filter  
+  Show only items under a maximum price
 
-- **Archive system**
-  - Archive items instead of deleting
-  - Toggle visibility of archived entries
+- Archive system  
+  Archive items instead of deleting them, with toggle visibility
 
-- **Dark / light mode**
-  - Persistent and easy to switch
+- Dark / light mode toggle
 
-- **LocalStorage powered**
-  - No backend
-  - Your data stays in your browser
+- LocalStorage powered  
+  No backend, no accounts — your data stays in your browser
 
 ---
 
 ## 🛠️ Built With
 
-- **HTML** – structure
-- **CSS** – soft pastel UI + dark mode
-- **JavaScript (Vanilla)** – logic, state, and localStorage
+- HTML
+- CSS
+- JavaScript (Vanilla)
 
 No frameworks. No dependencies.
 
@@ -54,9 +49,9 @@ No frameworks. No dependencies.
 ```
 
 .
-├── index.html   # App structure
-├── style.css    # Theme, layout, animations
-└── script.js    # Logic, state management, localStorage
+├── index.html
+├── style.css
+└── script.js
 
 ````
 
@@ -64,54 +59,36 @@ No frameworks. No dependencies.
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**
+1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/shoplist.git
+   git clone https://github.com/ravionry/wish-shoplist.git
 ````
 
-2. **Open `index.html`**
-
-   * Double-click it, or
-   * Serve it with a local dev server
+2. Open `index.html` in your browser
 
 That’s it — no setup required.
 
 ---
 
-## 💡 How It Works
+## 💡 Notes
 
-* Items are stored in `localStorage` under the key `wishlist`
-* Priority hearts control both:
-
-  * Visual glow intensity
-  * Decision logic
-* Archived items are hidden by default but never deleted unless you choose to
-
----
-
-## 🎨 Customization Ideas
-
-* Add more categories
-* Change the decision logic thresholds
-* Add currency switching
-* Export / import wishlist as JSON
-* Add search or tag filtering
+* Data is saved using `localStorage`
+* Priority hearts affect both visuals and decision logic
+* Archived items are hidden by default but never removed unless deleted
 
 ---
 
 ## 📜 License
 
-This project is open-source and free to use for personal projects.
+Open source, free to use for personal projects.
 
 ---
 
 ## 🌱 Author
 
-Mini-app developed by
+Developed by
 **[@ravionry](https://github.com/ravionry)**
 
----
-
-Made for people who overthink purchases — gently 💗
+Made for people who overthink purchases 💗
 
 ```
