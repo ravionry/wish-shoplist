@@ -1,4 +1,4 @@
-# shoplist 🌸
+# wish 🌸
 
 A cute, minimalist wishlist / shoplist web app built with vanilla HTML, CSS, and JavaScript.  
 Designed for tracking items you want to buy, comparing priorities and prices, and making quick “buy or skip” decisions — all stored locally in your browser.
