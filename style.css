@@ -93,10 +93,16 @@ button:active {
   transform: scale(0.97);
 }
 
+/* MAIN ADD BUTTON — WIDE & CENTERED */
 .form-actions {
   display: flex;
-  gap: 0.5rem;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.form-actions button {
+  width: 100%;
+  font-weight: 600;
+  padding: 0.75rem;
 }
 
 /* =========================
@@ -335,12 +341,9 @@ button:active {
 
   font-size: 0.75rem;
   opacity: 0.35;
-
   color: var(--text);
-  background: transparent;
 
   transition: opacity 0.2s ease, transform 0.2s ease;
-  pointer-events: auto;
 }
 
 .footer-credit:hover {
@@ -369,9 +372,5 @@ button:active {
   form,
   .card {
     padding: 0.75rem;
-  }
-
-  .form-actions {
-    flex-direction: column;
   }
 }
