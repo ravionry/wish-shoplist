@@ -54,7 +54,6 @@ No frameworks. No dependencies.
 └── script.js
 
 ````
-
 ---
 
 ## 🚀 Getting Started
@@ -90,5 +89,8 @@ Developed by
 **[@ravionry](https://github.com/ravionry)**
 
 Made for people who overthink purchases 💗
+
+```
+```
 
 ```
